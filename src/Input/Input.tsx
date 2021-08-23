@@ -17,7 +17,6 @@ const StyledInput = styled.input<StyledInputProps>`
   height: 64px;
   box-sizing: border-box;
   border-radius: 4px;
-  font-family: Proxima Nova;
   font-size: 18px;
   line-height: 1.5;
 `
