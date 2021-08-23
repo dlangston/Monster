@@ -1,21 +1,32 @@
 {
   "name": "monster",
   "version": "0.1.0",
+  "author": "me",
   "private": true,
+  "license": "MIT",
   "dependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "rollup": "^2.56.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate": "node ./util/create-component"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +45,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.12",
+    "@types/styled-theming": "^2.2.5",
+    "lodash": "^4.17.21",
+    "styled-theming": "^2.2.0",
+    "typescript": "^4.3.5",
+    "typescript-plugin-styled-components": "^2.0.0"
   }
 }
